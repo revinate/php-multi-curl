@@ -1,0 +1,16 @@
+{
+    "name": "jmathai/php-multi-curl",
+    "description": "A high performance PHP library for using multi curl for parallel http calls.",
+    "authors": [
+        {
+            "name": "jmathai",
+            "email": "jaisen@jmathai.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EpiCurl\\": "."
+        }
+    },
+    "require": {}
+}

@@ -1,4 +1,8 @@
 <?php
+namespace EpiCurl;
+
+use Exception;
+
 class EpiCurl
 {
   const timeout = 3;

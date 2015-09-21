@@ -1,5 +1,8 @@
 <?php
-include './EpiCurl.php';
+include './vendor/autoload.php';
+
+use EpiCurl\EpiCurl;
+
 $mc = EpiCurl::getInstance();
 
 $yahoo = $mc->addURL('http://www.yahoo.com'); // call yahoo
